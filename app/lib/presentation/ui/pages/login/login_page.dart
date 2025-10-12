@@ -4,12 +4,12 @@ import 'package:app/presentation/themes/app_themes.dart';
 import 'package:app/presentation/ui/custom/app_theme_switch.dart';
 import 'package:app/presentation/ui/custom/loading_screen.dart';
 import 'package:common/core/resource.dart';
-import 'package:domain/bloc/auth/auth_cubit.dart';
-import 'package:domain/services/auth_service.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../../../../bloc/auth/auth_cubit.dart';
+import '../../../../services/auth_service.dart';
 import '../../custom/environment_selector.dart';
 
 class LoginPage extends StatelessWidget {

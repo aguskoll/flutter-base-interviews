@@ -1,8 +1,10 @@
-import 'package:domain/bloc/app/app_state.dart';
+
 import 'package:domain/models/app_lang.dart';
 import 'package:domain/models/theme_type.dart';
 import 'package:domain/repositories/common_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'app_state.dart';
 
 class AppCubit extends Cubit<AppState> {
   final CommonRepository _commonRepository;

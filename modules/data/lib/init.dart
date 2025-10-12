@@ -4,9 +4,9 @@ import 'package:data/preferences/preferences_impl.dart';
 import 'package:data/repositories/auth_repository_impl.dart';
 import 'package:data/repositories/common_repository_impl.dart';
 import 'package:dio/dio.dart';
+import 'package:domain/env/environment_service.dart';
 import 'package:domain/repositories/auth_repository.dart';
 import 'package:domain/repositories/common_repository.dart';
-import 'package:domain/services/environment_service.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

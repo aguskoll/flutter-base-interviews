@@ -1,6 +1,6 @@
+import 'package:app/bloc/auth/auth_cubit.dart';
+import 'package:app/bloc/auth/auth_state.dart';
 import 'package:common/core/resource.dart';
-import 'package:domain/bloc/auth/auth_cubit.dart';
-import 'package:domain/bloc/auth/auth_state.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

@@ -1,7 +1,7 @@
 import 'package:app/presentation/resources/resources.dart';
 import 'package:app/presentation/themes/local_theme.dart';
 import 'package:domain/env/env_config.dart';
-import 'package:domain/services/environment_service.dart';
+import 'package:domain/env/environment_service.dart';
 import 'package:flutter/material.dart';
 
 import '../../../main/init.dart';

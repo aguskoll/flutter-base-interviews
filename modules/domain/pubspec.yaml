@@ -12,11 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
   async: ^2.11.0
-  flutter_bloc: ^8.1.2
-  get_it: ^7.6.0
+  get_it: ^8.2.0
   equatable: ^2.0.5
-  url_strategy: ^0.2.0
-  flutter_dotenv: ^5.2.1
+  #url_strategy: ^0.2.0
+  flutter_dotenv: ^6.0.0
   flutter_localizations:
     sdk: flutter
   common:

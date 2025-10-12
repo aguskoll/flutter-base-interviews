@@ -1,9 +1,5 @@
 import 'package:common/core/resource.dart';
 import 'package:flutter/material.dart';
-import 'package:domain/bloc/app/app_cubit.dart';
-import 'package:domain/bloc/app/app_state.dart';
-import 'package:domain/bloc/auth/auth_cubit.dart';
-import 'package:domain/bloc/auth/auth_state.dart';
 import 'package:app/presentation/navigation/routers.dart';
 import 'package:app/presentation/resources/locale/generated/l10n.dart';
 import 'package:app/presentation/themes/app_themes.dart';
@@ -12,6 +8,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:go_router/go_router.dart';
 
+import '../bloc/app/app_cubit.dart';
+import '../bloc/app/app_state.dart';
+import '../bloc/auth/auth_cubit.dart';
+import '../bloc/auth/auth_state.dart';
 import 'init.dart';
 
 class App extends StatelessWidget {

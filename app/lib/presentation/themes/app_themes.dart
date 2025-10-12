@@ -1,4 +1,4 @@
-import 'package:domain/bloc/app/app_cubit.dart';
+
 import 'package:flutter/material.dart';
 import 'package:domain/models/theme_type.dart';
 import 'package:app/presentation/themes/local_theme.dart';
@@ -6,6 +6,8 @@ import 'package:app/presentation/themes/resources/app_theme_data.dart';
 import 'package:app/presentation/themes/resources/dark_theme_colors.dart';
 import 'package:app/presentation/themes/resources/light_theme_colors.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../../bloc/app/app_cubit.dart';
 
 class AppThemes {
   static LocalTheme get light => LightTheme();

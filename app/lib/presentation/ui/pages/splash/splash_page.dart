@@ -1,6 +1,7 @@
 import 'package:app/main/init.dart';
-import 'package:domain/services/auth_service.dart';
 import 'package:flutter/material.dart';
+
+import '../../../../services/auth_service.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
@@ -20,10 +21,6 @@ class _SplashPageState extends State<SplashPage> {
 
   @override
   Widget build(BuildContext context) {
-    return const Material(
-      child: Center(
-        child: CircularProgressIndicator(),
-      ),
-    );
+    return const Material(child: Center(child: CircularProgressIndicator()));
   }
 }
