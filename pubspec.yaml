@@ -6,7 +6,7 @@ publish_to: "none"
 version: 0.0.1+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ^3.9.0
 
 dependencies:
   flutter:
@@ -15,7 +15,14 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  melos: ^3.4.0
 
 flutter:
   generate: true
   uses-material-design: true
+
+workspace:
+  - app
+  - modules/domain
+  - modules/data
+  - modules/common
