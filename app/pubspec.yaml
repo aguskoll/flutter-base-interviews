@@ -60,6 +60,7 @@ dev_dependencies:
   mockito: ^5.4.4
   mocktail: ^1.0.3
   flutter_lints: ^3.0.2
+  melos: ^7.1.1
 
 flutter_intl:
   enabled: true # Required. Must be set to true to activate the package. Default: false

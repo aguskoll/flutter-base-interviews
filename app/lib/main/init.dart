@@ -7,6 +7,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get_it/get_it.dart';
 import 'package:url_strategy/url_strategy.dart';
 
+import '../init.dart';
 import 'env/env_config.dart';
 
 void init() async {
@@ -20,7 +21,8 @@ final getIt = GetIt.instance;
 
 Future<void> initialize() async {
   await dotenv.load(fileName: FlavorConfig.getEnvFilePath());
-  await CommonInit.initialize(getIt);
   await DataInit.initialize(getIt);
+  await AppInit.initialize(getIt);
+  await CommonInit.initialize(getIt);
   await DomainInit.initialize(getIt);
 }

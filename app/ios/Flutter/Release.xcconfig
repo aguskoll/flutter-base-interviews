@@ -2,8 +2,7 @@
 #include "Generated.xcconfig"
 
 FLUTTER_TARGET=lib/main/env/main.dart
-FLUTTER_BUILD_NAME=2.0.0
-FLUTTER_BUILD_NUMBER=1
+FLUTTER_BUILD_NAME=1.0.0
 FLUTTER_APP_ID=base
-FLUTTER_APP_NAME=RS Base
+FLUTTER_APP_NAME=Base
 PREFIX=release
