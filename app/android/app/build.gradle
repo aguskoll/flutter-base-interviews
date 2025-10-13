@@ -53,7 +53,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace 'com.rootstrap.base.flutter_base_rootstrap'
+    namespace 'com.aguskoll.template'
     compileSdkVersion buildProperties.getProperty('flutter.compileSdkVersion').toInteger()
     ndkVersion flutter.ndkVersion
 

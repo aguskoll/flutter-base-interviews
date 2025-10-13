@@ -37,7 +37,7 @@ class LoginPage extends StatelessWidget {
                     child: const Text('Login'),
                     onPressed: () {
                       _authService.logInWithCredentials(
-                        'Rootstrap',
+                        'admin',
                         '12345678',
                       );
                     },
