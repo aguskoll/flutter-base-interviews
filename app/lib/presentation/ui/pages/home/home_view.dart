@@ -1,11 +1,6 @@
 import 'package:app/main/init.dart';
-import 'package:common/core/failure/failure.dart';
-import 'package:common/core/resource.dart';
-import 'package:flutter/material.dart';
 import 'package:app/presentation/ui/custom/app_theme_switch.dart';
-import 'package:app/presentation/ui/custom/failure_widget.dart';
-
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter/material.dart';
 
 import '../../../../services/auth_service.dart';
 
@@ -26,9 +21,7 @@ class HomeView extends StatelessWidget {
           const AppThemeSwitch(),
         ],
       ),
-      body: const Center(
-        child: Text('Home'),
-      ),
+      body: const Center(child: Text('Home')),
     );
   }
 }
