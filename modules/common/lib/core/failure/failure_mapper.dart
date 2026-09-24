@@ -15,6 +15,7 @@ extension FailureMapper on DioException {
       case DioExceptionType.unknown:
       case DioExceptionType.badCertificate:
       case DioExceptionType.connectionError:
+      case DioExceptionType.transformTimeout:
         return UnexpectedFailure(message);
     }
   }

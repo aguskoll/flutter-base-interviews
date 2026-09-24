@@ -55,7 +55,7 @@ if (keystorePropertiesFile.exists()) {
 android {
     namespace 'com.aguskoll.template'
     compileSdkVersion buildProperties.getProperty('flutter.compileSdkVersion').toInteger()
-    ndkVersion flutter.ndkVersion
+    ndkVersion buildProperties.getProperty('flutter.ndkVersion') ?: '29.0.13113456'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
